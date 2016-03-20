@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  width: 100%; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.initials {
+  float: left;
+  color: #FFFFFF;
+  font-size: .75em;
+  padding: 1em;
+  margin-top: .25em;
+  background-color: #ec3dee;
+  border-radius: 50%;
+  border: 1px solid #ec3dee; }
+
+.banner {
+  background-color: #FFFFFF;
+  padding: 5em 0 5em 0; }
+  .banner .wrapper {
+    padding: 0 20% 0 20%; }
+    .banner .wrapper .left {
+      width: 50%; }
+    .banner .wrapper .right {
+      width: 50%;
+      float: right; }
+      .banner .wrapper .right .callout h1 {
+        margin: 0;
+        color: #414148;
+        font-size: 3.5em;
+        font-weight: 400;
+        text-align: right; }
+
+.body {
+  background-color: #414148;
+  padding: 5em 0 5em 0;
+  color: #FFFFFF; }
+  .body .wrapper {
+    padding: 0 20% 0 20%; }
+  .body .top_row {
+    background-color: #f17fed;
+    margin: 1em 0; }
+  .body .middle_row {
+    margin: 1em 0; }
+    .body .middle_row .left {
+      display: inline-block;
+      background-color: #93ea9c;
+      width: 47%;
+      margin-right: 1em;
+      float: left; }
+    .body .middle_row .right {
+      display: inline-block;
+      background-color: #a36ee3;
+      width: 49%;
+      float: right; }
+  .body .bottom_row {
+    margin: 1em 0; }
+    .body .bottom_row .left {
+      display: inline-block;
+      width: 75%;
+      background-color: #7fe2f7; }
+    .body .bottom_row .right {
+      float: right;
+      display: inline-block;
+      width: 24%; }
+      .body .bottom_row .right .wrapper {
+        margin: 8em 0; }
+        .body .bottom_row .right .wrapper h3 {
+          margin: auto;
+          font-size: 1em;
+          text-align: center;
+          font-weight: 300;
+          color: #9292ac; }
+
+.box {
+  padding: 5em 3em; }
+  .box h3 {
+    font-size: .65em;
+    text-transform: uppercase;
+    font-weight: 300; }
+  .box h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 400; }
+
+.footer {
+  margin: 5em auto;
+  padding: 0 20% 0 20%; }
+  .footer div {
+    display: inline-block; }
+  .footer .initials {
+    margin-top: 3em; }
+  .footer .email {
+    margin: 0 3em; }
+    .footer .email h1 {
+      font-weight: 400;
+      font-size: 1.5em; }
+    .footer .email h3 {
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: .65em; }
+  .footer .social h1 {
+    font-weight: 400;
+    font-size: 1.5em; }
+    .footer .social h1 span {
+      margin-right: 1em; }
+  .footer .social h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: .65em; }

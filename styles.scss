@@ -1,0 +1,182 @@
+$white: #FFFFFF;
+$logo_color: #ec3dee;
+$text_color: #414148;
+$background: #414148;
+$pink: #f17fed;
+$green: #93ea9c;
+$purple: #a36ee3;
+$teal: #7fe2f7;
+$grey: #9292ac;
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	width: 100%;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.initials {
+	float: left;
+	color: $white;
+	font-size: .75em;
+	padding: 1em;
+	margin-top: .25em;
+	background-color: $logo_color;
+	border-radius: 50%;
+	border: 1px solid $logo_color;
+}
+
+.banner {
+	background-color: $white;
+	padding: 5em 0 5em 0;
+	.wrapper {
+		padding: 0 20% 0 20%;
+		.left {
+			width: 50%;
+		}
+		.right {
+			width: 50%;
+			float: right;
+			.callout h1 {
+				margin: 0;
+				color: $text_color;
+				font-size: 3.5em;
+				font-weight: 400;
+				text-align: right;
+			}
+		}
+	}
+}
+
+
+.body {
+	background-color: $background;
+	padding: 5em 0 5em 0;
+	color: $white;
+	.wrapper {
+		padding: 0 20% 0 20%;
+	}
+	.top_row {
+		background-color: $pink;
+		margin: 1em 0;
+	}
+	.middle_row {
+		margin: 1em 0;
+		.left {
+			display: inline-block;
+			background-color: $green;
+			width: 47%;
+			margin-right: 1em;
+			float: left;
+		}
+		.right {
+			display: inline-block;
+			background-color: $purple;	
+			width: 49%;		
+			float: right;
+		}
+	}
+	.bottom_row {
+		margin: 1em 0;
+		.left {
+			display: inline-block;
+			width: 75%;
+			background-color: $teal;
+		}
+		.right {
+			float: right;
+			display: inline-block;
+			width: 24%;
+			.wrapper {
+				margin: 8em 0;
+				h3 {
+					margin: auto;
+					font-size: 1em;
+					text-align: center;
+					font-weight: 300;
+					color: $grey;
+				}
+			}
+		}
+	}
+}
+
+.box {
+	padding: 5em 3em;
+	h3 {
+		font-size: .65em;
+		text-transform: uppercase;
+		font-weight: 300;
+	}
+	h1 {
+		padding: 0;
+		margin: 0;
+		font-size: 2.5em;
+		font-weight: 400;
+	}
+}	
+
+.footer {
+	margin: 5em auto;
+	padding: 0 20% 0 20%;
+	div {
+		display: inline-block;
+	}
+	.initials {
+		margin-top: 3em;
+	}
+	.email {
+		margin: 0 3em;
+		h1 {
+			font-weight: 400;
+			font-size: 1.5em;
+		}
+		h3 {
+			text-transform: uppercase;
+			font-weight: 400;
+			font-size: .65em;
+		}
+	}
+	.social {
+		h1 {
+			font-weight: 400;
+			font-size: 1.5em;
+			span {
+				margin-right: 1em;
+			}
+		}
+		h3 {
+			text-transform: uppercase;
+			font-weight: 400;
+			font-size: .65em;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
